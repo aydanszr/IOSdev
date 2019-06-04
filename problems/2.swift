@@ -1,5 +1,4 @@
-class Solution {
-    func sortArrayByParity(_ A: [Int]) -> [Int] {
+func sortArrayByParity(_ A: [Int]) -> [Int] {
         var even = [Int]()
         var odd = [Int]()
         A.forEach {
@@ -11,5 +10,7 @@ class Solution {
         }
         return even + odd
     }
-}
+
+print(sortArrayByParity([3,1,2,4]))
+print(sortArrayByParity([6,7,5,1]))
       
